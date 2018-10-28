@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical"
+
+    tools:context="com.example.abyssiniaaa.blockchain.Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_bible_version"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magic_button_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:button_icon="@drawable/download"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:expandable_area_color="#200cb7"
+        app:hide_text="       Holman Christian \n Standard Bible"
+        app:icon_button_color="#a8ece4"
+        app:magic_button_size="50dp" />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magic_button_twiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:button_icon="@drawable/downloadb"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:expandable_area_color="#e261e4"
+        app:hide_text="        New Living\ Translation"
+        app:icon_button_color="#d0d4e2"
+        app:magic_button_size="50dp"/>
+
+        <br.com.bloder.magic.view.MagicButton
+            android:id="@+id/magic_button_github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:button_icon="@drawable/downloadc"
+            app:button_icon_height="25dp"
+            app:button_icon_width="25dp"
+            app:expandable_area_color="#464453"
+            app:hide_text="     NET Bible\(New English Translation)"
+            app:icon_button_color="#8676a6c2"
+            app:magic_button_size="50dp" />
+
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magic_button_facebook1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:button_icon="@drawable/downloade"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:expandable_area_color="#8ee6b2"
+        app:hide_text="   New American \Standard Bible"
+        app:icon_button_color="#375dda"
+        app:magic_button_size="50dp" >
+
+    </br.com.bloder.magic.view.MagicButton>
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magic_button_twiter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:button_icon="@drawable/downloadf"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:expandable_area_color="#56eac98f"
+        app:hide_text="Good News Translation"
+        app:icon_button_color="#cede89"
+        app:magic_button_size="50dp" >
+
+    </br.com.bloder.magic.view.MagicButton>
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magic_button_github1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:button_icon="@drawable/downloadg"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:expandable_area_color="#464453"
+        app:hide_text="  The Message"
+        app:icon_button_color="#3a3b40"
+        app:magic_button_size="50dp" >
+
+    </br.com.bloder.magic.view.MagicButton>
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magic_button_youtube1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:button_icon="@drawable/downloadh"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:expandable_area_color="#ef91e2"
+        app:hide_text="    New Jerusalem Bible "
+        app:icon_button_color="#ca092d"
+        app:magic_button_size="50dp" >
+
+        <br.com.bloder.magic.view.MagicButton
+            android:id="@+id/magic_button_youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:button_icon="@drawable/downloadd"
+            app:button_icon_height="25dp"
+            app:button_icon_width="25dp"
+            app:expandable_area_color="#9c304d"
+            app:hide_text="   New Revised \Standard Version"
+            app:icon_button_color="#48e14e6a"
+            app:magic_button_size="50dp" />
+    </br.com.bloder.magic.view.MagicButton>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">blockchain</string>
+    <string name="select_bible_version">SELECT BIBLE VERSION</string>
+</resources>
